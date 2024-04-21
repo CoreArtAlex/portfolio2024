@@ -1,0 +1,80 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+- Font Weights
+  default: 400
+- Line Heights
+- Spacing System (px)
+
+--- 02 COLORS
+
+- Pimary: 
+- Tints: #fbdbdb
+- Shades: 
+- Accents: 
+- Greys: #555 #333
+
+--- 03 SHADOWS
+
+---04 BORDER-RADIUS
+
+---05 WHITE SPACE
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.section-hero {
+  background-color: #fbdbdb;
+  padding: 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.title {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.summary {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  background-color: #ea4c4c;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border: 15px;
+  border-radius: 9px;
+}
+.hero-image {
+  width: 100%;
+}
